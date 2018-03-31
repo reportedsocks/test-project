@@ -1,25 +1,642 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Weather forecast</title>
+    <title>Тестовое задание</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     
    
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400&amp;subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
- 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="libraries/slick/slick.css"/>
+
+    
+
+    <link rel="stylesheet" href="dist/css/style.css">
+      
   </head>
   <body>
     <div class=" container-fluid">
-      <div class="row">lolpldp</div>
-      <div class="row red">dsdsd</div>
-    </div>
+      <div class="row header">
+        <div class="d-none d-sm-block col-sm-3 col-md-3 col-lg-2 text-right">
+          <p>SITE LOGO</p>
+      </div>
+      <div class="d-block col-2 d-sm-none col-sm-3 col-md-3 col-lg-2 text-right">
+          <p>SL</p>
+      </div>
+      <div class="col-6 col-sm-6 col-md-6 col-lg-6 input-block">
+        <div class="row">
+          <div class="col-3 col-md-1 offset-md-2 location-icon-red"></div>
+          <div class="col-9 col-md-9">
+            <input type="text" name="location-search">
+          </div>
+        </div></div>
+         
+          
+      <div class="col-3 col-sm-3 col-md-2 offset-md-1 col-lg-2 offset-lg-2 ">
+        <div class="row">
+          <div class="col-6 col-sm-3 offset-sm-3">
+        <div class="notification-icon "></div>
+        </div>
+          <div class="col-6 col-sm-3">
+        <div class="avatar-icon "></div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+
+      </div>
+
+      <div class="container">
+        <div class="row">
+                    <div class="d-block col-10 offset-1 d-sm-none">
+            <div class="course-container">
+              <div class="course-logo"></div>
+              <div class="course-info-block">
+                
+                <div class="row">
+                  <div class="col-md-3 offset-md-9 "><div class="fav-icon"></div></div>
+                </div>
+                <div class="row">
+                  <div class="col justify-content-center course-img">
+                    <img src="img/course-foto.png">
+                  </div>
+                </div>
+                <div class="row course-name">
+                  <div class="col-md-2 tip-icon"></div>
+                  <div class="col-md-8">
+                    <h6>Школа</h6>
+                    <h6>"Let's Speak"</h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 offset-md-1 course-description">
+                    <p id="clamp-text">Репетиторы, носители языка - главное наше преимущество.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="border-block"></div>
+                  </div>
+                </div>
+
+                <div class="row course-location">
+                  <div class="col-md-1 offset-md-1 location-icon"></div>
+                  <div class="col-md-9">
+                    <p>Украина</p>
+                    <p>Киев</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+            </div>
+            
+
+
+
+          </div>
+        </div>
+
+        <div class="row margin-top">
+          <div class="col-2 offset-5 col-sm-1 offset-sm-0 col-md-1 main-heading-img"></div>
+          <div class="col-12 text-center col-sm-8 text-sm-left col-md-8 main-heading ">
+            <h2>Английский для детей</h2>
+            <p>Лучше раньше, чем никогда</p>
+          </div>
+          <div class="d-none d-sm-block col-sm-3 col-md-3 main-heading">
+            <h2>Курсы</h2>
+            <p>Английский язык</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8 col-md-8 col-lg-9">
+            <div class="text-container" id="open-text">
+              <div class="row" >
+                <div class="d-none d-md-block col-md-1 hat-icon"></div>
+                <div class="col-sm-12 col-md-10 text-heading">
+                  <h4>В каком возрасте начать обучение?</h4>
+                </div>
+                <div class="d-none d-md-block col-md-1">
+                  <div class="open-icon"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-10 offset-md-1 main-text"><p>До пяти лет дети обладают лингвистической гениальностью. Они способны запоминать 20-30 новых слов в день. Простая арифметика дает впечатляющий результат - 7-10 тысяч слов в год. Да мы и в родном русском столько не используем, а что говорить об иностранном. Способности к языкам, безусловно, либо есть, либо нет. </p></div>
+              </div>
+
+            </div>
+
+             <div class="text-container" id="open-text-2">
+              <div class="row" >
+                <div class="d-none d-md-block col-md-1 hat-icon"></div>
+                <div class="col-md-10 text-heading">
+                  <h4>В каком возрасте начать обучение?</h4>
+                </div>
+                <div class="d-none d-md-block col-md-1 ">
+                  <div class="open-icon-2"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-10 offset-md-1 main-text-2"><p>До пяти лет дети обладают лингвистической гениальностью. Они способны запоминать 20-30 новых слов в день. Простая арифметика дает впечатляющий результат - 7-10 тысяч слов в год. Да мы и в родном русском столько не используем, а что говорить об иностранном. Способности к языкам, безусловно, либо есть, либо нет. </p></div>
+              </div>
+
+            </div>
+
+
+          </div>
+          <div class="d-none d-sm-block col-sm-4  col-md-4 col-lg-3">
+            <div class="course-container">
+              <div class="course-logo"></div>
+              <div class="course-info-block">
+                
+                <div class="row">
+                  <div class="col-md-3 offset-md-9 "><div class="fav-icon"></div></div>
+                </div>
+                <div class="row">
+                  <div class="col justify-content-center course-img">
+                    <img src="img/course-foto.png">
+                  </div>
+                </div>
+                <div class="row course-name">
+                  <div class="col-md-2 tip-icon"></div>
+                  <div class="col-md-8">
+                    <h6>Школа</h6>
+                    <h6>"Let's Speak"</h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 offset-md-1 course-description">
+                    <p id="clamp-text">Репетиторы, носители языка - главное наше преимущество.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="border-block"></div>
+                  </div>
+                </div>
+
+                <div class="row course-location">
+                  <div class="col-md-1 offset-md-1 location-icon"></div>
+                  <div class="col-md-9">
+                    <p>Украина</p>
+                    <p>Киев</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+            </div>
+            
+
+
+
+          </div>
+
+        </div>
+
+
+        <div class="row sliders-heading">
+          <div class="col-md-5">
+            <h4>Курсы английского в Киеве</h4>
+          </div>
+        </div>
+
+
+
+        </div>
+
+      
+<div class="container">
+  
+    
+          <div class="row sliders">
+          <div class="col-md-3">
+            <div class="course-container">
+              <div class="course-logo"></div>
+              <div class="course-info-block">
+                
+                <div class="row">
+                  <div class="col-md-3 offset-md-9 "><div class="fav-icon"></div></div>
+                </div>
+                <div class="row">
+                  <div class="col justify-content-center course-img">
+                    <img src="img/course-foto.png">
+                  </div>
+                </div>
+                <div class="row course-name">
+                  <div class="col-md-2 tip-icon"></div>
+                  <div class="col-md-8">
+                    <h6>Школа</h6>
+                    <h6>"Let's Speak"</h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 offset-md-1 course-description">
+                    <p id="clamp-text">Репетиторы, носители языка - главное наше преимущество.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="border-block"></div>
+                  </div>
+                </div>
+
+                <div class="row course-location">
+                  <div class="col-md-1 offset-md-1 location-icon"></div>
+                  <div class="col-md-9">
+                    <p>Украина</p>
+                    <p>Киев</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+            </div>
+            
+
+
+
+          </div>
+          <div class="col-md-3">
+            <div class="course-container">
+              <div class="course-logo"></div>
+              <div class="course-info-block">
+                
+                <div class="row">
+                  <div class="col-md-3 offset-md-9 "><div class="fav-icon"></div></div>
+                </div>
+                <div class="row">
+                  <div class="col justify-content-center course-img">
+                    <img src="img/course-foto.png">
+                  </div>
+                </div>
+                <div class="row course-name">
+                  <div class="col-md-2 tip-icon"></div>
+                  <div class="col-md-8">
+                    <h6>Школа</h6>
+                    <h6>"Let's Speak"</h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 offset-md-1 course-description">
+                    <p id="clamp-text">Репетиторы, носители языка - главное наше преимущество.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="border-block"></div>
+                  </div>
+                </div>
+
+                <div class="row course-location">
+                  <div class="col-md-1 offset-md-1 location-icon"></div>
+                  <div class="col-md-9">
+                    <p>Украина</p>
+                    <p>Киев</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+            </div>
+            
+
+
+
+          </div>
+          <div class="col-md-3">
+            <div class="course-container">
+              <div class="course-logo"></div>
+              <div class="course-info-block">
+                
+                <div class="row">
+                  <div class="col-md-3 offset-md-9 "><div class="fav-icon"></div></div>
+                </div>
+                <div class="row">
+                  <div class="col justify-content-center course-img">
+                    <img src="img/course-foto.png">
+                  </div>
+                </div>
+                <div class="row course-name">
+                  <div class="col-md-2 tip-icon"></div>
+                  <div class="col-md-8">
+                    <h6>Школа</h6>
+                    <h6>"Let's Speak"</h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 offset-md-1 course-description">
+                    <p id="clamp-text">Репетиторы, носители языка - главное наше преимущество.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="border-block"></div>
+                  </div>
+                </div>
+
+                <div class="row course-location">
+                  <div class="col-md-1 offset-md-1 location-icon"></div>
+                  <div class="col-md-9">
+                    <p>Украина</p>
+                    <p>Киев</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+            </div>
+            
+
+
+
+          </div>
+          <div class="col-md-3">
+            <div class="course-container">
+              <div class="course-logo"></div>
+              <div class="course-info-block">
+                
+                <div class="row">
+                  <div class="col-md-3 offset-md-9 "><div class="fav-icon"></div></div>
+                </div>
+                <div class="row">
+                  <div class="col justify-content-center course-img">
+                    <img src="img/course-foto.png">
+                  </div>
+                </div>
+                <div class="row course-name">
+                  <div class="col-md-2 tip-icon"></div>
+                  <div class="col-md-8">
+                    <h6>Школа</h6>
+                    <h6>"Let's Speak"</h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 offset-md-1 course-description">
+                    <p id="clamp-text">Репетиторы, носители языка - главное наше преимущество.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="border-block"></div>
+                  </div>
+                </div>
+
+                <div class="row course-location">
+                  <div class="col-md-1 offset-md-1 location-icon"></div>
+                  <div class="col-md-9">
+                    <p>Украина</p>
+                    <p>Киев</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+            </div>
+            
+
+
+
+          </div>
+          <div class="col-md-3">
+            <div class="course-container">
+              <div class="course-logo"></div>
+              <div class="course-info-block">
+                
+                <div class="row">
+                  <div class="col-md-3 offset-md-9 "><div class="fav-icon"></div></div>
+                </div>
+                <div class="row">
+                  <div class="col justify-content-center course-img">
+                    <img src="img/course-foto.png">
+                  </div>
+                </div>
+                <div class="row course-name">
+                  <div class="col-md-2 tip-icon"></div>
+                  <div class="col-md-8">
+                    <h6>Школа</h6>
+                    <h6>"Let's Speak"</h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 offset-md-1 course-description">
+                    <p id="clamp-text">Репетиторы, носители языка - главное наше преимущество.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="border-block"></div>
+                  </div>
+                </div>
+
+                <div class="row course-location">
+                  <div class="col-md-1 offset-md-1 location-icon"></div>
+                  <div class="col-md-9">
+                    <p>Украина</p>
+                    <p>Киев</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+            </div>
+            
+
+
+
+          </div>
+          <div class="col-md-3">
+            <div class="course-container">
+              <div class="course-logo"></div>
+              <div class="course-info-block">
+                
+                <div class="row">
+                  <div class="col-md-3 offset-md-9 "><div class="fav-icon"></div></div>
+                </div>
+                <div class="row">
+                  <div class="col justify-content-center course-img">
+                    <img src="img/course-foto.png">
+                  </div>
+                </div>
+                <div class="row course-name">
+                  <div class="col-md-2 tip-icon"></div>
+                  <div class="col-md-8">
+                    <h6>Школа</h6>
+                    <h6>"Let's Speak"</h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 offset-md-1 course-description">
+                    <p id="clamp-text">Репетиторы, носители языка - главное наше преимущество.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="border-block"></div>
+                  </div>
+                </div>
+
+                <div class="row course-location">
+                  <div class="col-md-1 offset-md-1 location-icon"></div>
+                  <div class="col-md-9">
+                    <p>Украина</p>
+                    <p>Киев</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+            </div>
+            
+
+
+
+          </div>
+          <div class="col-md-3">
+            <div class="course-container">
+              <div class="course-logo"></div>
+              <div class="course-info-block">
+                
+                <div class="row">
+                  <div class="col-md-3 offset-md-9 "><div class="fav-icon"></div></div>
+                </div>
+                <div class="row">
+                  <div class="col justify-content-center course-img">
+                    <img src="img/course-foto.png">
+                  </div>
+                </div>
+                <div class="row course-name">
+                  <div class="col-md-2 tip-icon"></div>
+                  <div class="col-md-8">
+                    <h6>Школа</h6>
+                    <h6>"Let's Speak"</h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 offset-md-1 course-description">
+                    <p id="clamp-text">Репетиторы, носители языка - главное наше преимущество.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="border-block"></div>
+                  </div>
+                </div>
+
+                <div class="row course-location">
+                  <div class="col-md-1 offset-md-1 location-icon"></div>
+                  <div class="col-md-9">
+                    <p>Украина</p>
+                    <p>Киев</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+            </div>
+            
+
+
+
+          </div>
+          <div class="col-md-3">
+            <div class="course-container">
+              <div class="course-logo"></div>
+              <div class="course-info-block">
+                
+                <div class="row">
+                  <div class="col-md-3 offset-md-9 "><div class="fav-icon"></div></div>
+                </div>
+                <div class="row">
+                  <div class="col justify-content-center course-img">
+                    <img src="img/course-foto.png">
+                  </div>
+                </div>
+                <div class="row course-name">
+                  <div class="col-md-2 tip-icon"></div>
+                  <div class="col-md-8">
+                    <h6>Школа</h6>
+                    <h6>"Let's Speak"</h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 offset-md-1 course-description">
+                    <p id="clamp-text">Репетиторы, носители языка - главное наше преимущество.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="border-block"></div>
+                  </div>
+                </div>
+
+                <div class="row course-location">
+                  <div class="col-md-1 offset-md-1 location-icon"></div>
+                  <div class="col-md-9">
+                    <p>Украина</p>
+                    <p>Киев</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+            </div>
+            
+
+
+
+          </div>
+          
+            
+
+
+
+
+
+          </div>
+         
+          <div class="row ">
+            <div class="d-none d-sm-block col-sm-4 offset-sm-4 col-md-4 offset-md-4 arrow-append"></div>
+          </div>
+</div>
+    
+
+
+
+
+
+
+
+
 
      <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+     <script type="text/javascript" src="libraries/slick/slick.min.js"></script>
+     
+    <script src="dist/js/bundle.js"></script>
 
   </body>
   </html>

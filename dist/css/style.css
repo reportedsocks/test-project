@@ -1,0 +1,255 @@
+body {
+  background-image: url(../img/background-img.png);
+  background-repeat: no-repeat;
+  background-color: #f2f2f2; }
+  @media only screen and (max-width: 576px) {
+    body {
+      background-size: 2000px 900px; } }
+
+.margin-top {
+  margin-top: 280px; }
+  @media only screen and (max-width: 576px) {
+    .margin-top {
+      margin-top: 40px; } }
+
+.main-heading {
+  font-family: "Roboto", sans-serif;
+  color: white; }
+
+.main-heading-img {
+  width: 50px;
+  height: 50px;
+  background-image: url(../img/sprite.png);
+  background-position-x: -385px;
+  background-position-y: -144px; }
+  @media only screen and (max-width: 1200px) {
+    .main-heading-img {
+      background-position-x: -415px; } }
+  @media only screen and (max-width: 768px) {
+    .main-heading-img {
+      background-position-x: -440px; } }
+  @media only screen and (max-width: 576px) {
+    .main-heading-img {
+      background-position-x: -418px; } }
+
+.text-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 50px 50px;
+  background-color: white;
+  -webkit-box-shadow: 0 3px 4px #808080;
+          box-shadow: 0 3px 4px #808080;
+  font-family: "Roboto", sans-serif; }
+  @media only screen and (max-width: 576px) {
+    .text-container {
+      padding: 35px 35px; } }
+
+.hat-icon {
+  background-image: url(../img/sprite.png);
+  background-position-x: -120px;
+  background-position-y: -8px; }
+  @media only screen and (max-width: 992px) {
+    .hat-icon {
+      background-position-x: -140px; } }
+
+.open-icon, .open-icon-2 {
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/sprite.png);
+  background-position-x: -60px;
+  background-position-y: -14px; }
+
+.open-button.hide-text {
+  background-position-x: -96px;
+  background-position-y: -14px; }
+
+.main-text, .main-text-2 {
+  display: none;
+  padding-top: 30px; }
+
+.main-text.showed, .showed.main-text-2 {
+  display: block; }
+
+.course-container {
+  position: relative;
+  margin-top: 20px;
+  padding-top: 20px; }
+
+.course-logo {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 3px 4px #808080;
+          box-shadow: 0 3px 4px #808080;
+  width: 83px;
+  height: 83px;
+  background-image: url(../img/sprite.png);
+  background-position-x: -194px;
+  background-position-y: 3px;
+  background-color: white;
+  z-index: 5; }
+
+.course-info-block {
+  -webkit-box-shadow: 0 3px 4px #808080;
+          box-shadow: 0 3px 4px #808080;
+  background-color: white;
+  padding: 10px;
+  font-family: "Roboto", sans-serif; }
+
+.fav-icon {
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/sprite.png);
+  background-position-x: -298px;
+  background-position-y: -14px; }
+
+.course-img {
+  margin-top: 11px; }
+  .course-img img {
+    width: 100%;
+    height: auto; }
+    .course-img img:hover {
+      -webkit-box-shadow: 0 5px 11px #808080;
+              box-shadow: 0 5px 11px #808080; }
+
+.tip-icon {
+  width: 27px;
+  height: 27px;
+  background-image: url(../img/sprite.png);
+  background-position-x: -339px;
+  background-position-y: -15px; }
+  @media only screen and (max-width: 1200px) {
+    .tip-icon {
+      background-position-x: -350px; } }
+
+.course-name {
+  margin: 20px 0; }
+  .course-name div h6 {
+    font-weight: 600; }
+
+.course-description p {
+  color: #979797;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.border-block {
+  border: 1px solid #d1d1d1; }
+
+.location-icon {
+  width: 27px;
+  height: 27px;
+  background-image: url(../img/sprite.png);
+  background-position-x: -392px;
+  background-position-y: -14px; }
+
+.course-location {
+  color: #979797;
+  margin-top: 5px; }
+  .course-location div p {
+    margin: 1px 0; }
+
+.sliders-heading {
+  font-family: "Roboto", sans-serif;
+  color: #242424; }
+
+.sliders {
+  margin-bottom: 30px; }
+
+.slick-arrow {
+  margin: 0 55px 120px;
+  width: 65px;
+  height: 65px;
+  border-radius: 3px;
+  background-color: white;
+  -webkit-box-shadow: 0 3px 4px #808080;
+          box-shadow: 0 3px 4px #808080; }
+  .slick-arrow:hover {
+    -webkit-box-shadow: -1px 4px 7px #808080;
+            box-shadow: -1px 4px 7px #808080; }
+  .slick-arrow:focus {
+    -webkit-box-shadow: -1px 4px 7px #808080;
+            box-shadow: -1px 4px 7px #808080; }
+  @media only screen and (max-width: 1200px) {
+    .slick-arrow {
+      margin: 0 40px 120px; } }
+  @media only screen and (max-width: 992px) {
+    .slick-arrow {
+      margin: 0 20px 120px; } }
+  @media only screen and (max-width: 768px) {
+    .slick-arrow {
+      margin: 0 5px 120px; } }
+
+#prev {
+  background-image: url(../img/sprite.png);
+  background-position-x: -431px;
+  background-position-y: -45px; }
+  #prev:hover {
+    background-image: url(../img/sprite.png);
+    background-position-x: -431px;
+    background-position-y: -45px; }
+  #prev:focus {
+    background-image: url(../img/sprite.png);
+    background-position-x: -431px;
+    background-position-y: -45px; }
+
+#next {
+  background-image: url(../img/sprite.png);
+  background-position-x: -425px;
+  background-position-y: 5px; }
+  #next:hover {
+    background-image: url(../img/sprite.png);
+    background-position-x: -425px;
+    background-position-y: 5px; }
+  #next:focus {
+    background-image: url(../img/sprite.png);
+    background-position-x: -425px;
+    background-position-y: 5px; }
+
+.header {
+  background-color: #1b5f75;
+  border-bottom: 1px solid #a1a1a1;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 23px; }
+  .header div p {
+    margin: 0; }
+
+.notification-icon {
+  width: 50px;
+  height: 40px;
+  background-image: url(../img/sprite.png);
+  background-position-x: -515px;
+  background-position-y: -103px; }
+
+.avatar-icon {
+  width: 50px;
+  height: 40px;
+  background-image: url(../img/sprite.png);
+  background-position-x: -505px;
+  background-position-y: -170px; }
+
+.input-block {
+  width: 100%; }
+  .input-block input {
+    width: 90%;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    height: 30px;
+    border: none;
+    background-image: url(../img/search-icon.png);
+    background-position: right;
+    background-repeat: no-repeat; }
+    .input-block input:focus {
+      outline: none; }
+
+.location-icon-red {
+  width: 50px;
+  height: 40px;
+  background-image: url(../img/sprite.png);
+  background-position-x: -489px;
+  background-position-y: -223px; }
+  @media only screen and (max-width: 1200px) {
+    .location-icon-red {
+      background-position-x: -515px; } }

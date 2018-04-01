@@ -138,13 +138,13 @@ __webpack_require__(1);
 
 $('#open-text').on("click",function(){
 		$('.main-text').toggleClass('showed');
-		$('.open-button').toggleClass('hide-text');
+		$('.open-icon').toggleClass('hide-text');
 		
 	
 });
 $('#open-text-2').on("click",function(){
 		$('.main-text-2').toggleClass('showed');
-		$('.open-button-2').toggleClass('hide-text');
+		$('.open-icon-2').toggleClass('hide-text');
 		
 	
 });

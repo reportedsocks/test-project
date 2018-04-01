@@ -59,7 +59,7 @@ body {
   background-position-x: -60px;
   background-position-y: -14px; }
 
-.open-button.hide-text {
+.open-icon.hide-text, .hide-text.open-icon-2 {
   background-position-x: -96px;
   background-position-y: -14px; }
 
